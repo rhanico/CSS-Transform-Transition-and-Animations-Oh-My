@@ -1,1 +1,13 @@
+button {
+    background-color: ghostwhite;
+    transition-duration: .5s;
+    transition-delay: .5s;
+    transition-property:background-color;
+}
+button:hoover {
+    background-color: cornflowerblue;
+    color: ghostwhite;
+    transition-duration: .5s ;
+    }
+
 
