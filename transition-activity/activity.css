@@ -1,13 +1,21 @@
 button {
-    background-color: ghostwhite;
-    transition-duration: .5s;
-    transition-delay: .5s;
+    background-color: #eee;
+    border-style: none;
+    color: black;
+    transition-duration: 2s;
+    transition-delay: .05s;
     transition-property:background-color;
 }
+
+button a {
+    text-decoration: none;
+    color: black;
+    transition-duration: 2s;
+    transition-delay: .05s;
+    
+}
+
 button:hoover {
     background-color: cornflowerblue;
     color: ghostwhite;
-    transition-duration: .5s ;
     }
-
-
